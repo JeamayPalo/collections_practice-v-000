@@ -38,6 +38,6 @@ def kesha_maker(array)
   end
 end
 
-def sum_array(array)
-  array.inject
+def find_a(array)
+  array.start_with? "a"
 end
