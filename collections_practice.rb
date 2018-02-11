@@ -49,4 +49,9 @@ def sum_array(array)
     sum + integer
   end
 end
-    
+
+def add_s(array)
+  array.collect.with_index do |word, index|
+    index == 1 ? word : word + s
+  end
+end
